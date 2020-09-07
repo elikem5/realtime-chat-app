@@ -5,6 +5,7 @@ const http = require('http').createServer(app)
 const PORT = process.env.PORT || 3000
 
 http.listen(PORT, () => {
+    console.log('Malibuuuuuuu!');
     console.log(`Listening on port ${PORT}`)
 })
 
